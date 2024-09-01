@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: rgb(255, 216, 98)
+}
+
+.container {
+  background-color: #ffffff;
+  width: 40%;
+  margin: 20% auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 1px;
+  padding: 20px;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.learning {
+  height: 30px;
+  width: 90px;
+  background-color: rgb(247, 222, 83) ;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px ;
+}
+
+.learning p {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 15px;
+  padding: 6px 0;
+  color: rgb(63, 63, 63);
+  font-weight: 400
+}
+
+h2 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.main-text {
+  font-size: 15px;
+  color: rgb(104, 104, 104);
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile img {
+  height: 50px;
+}
+
+.profile p {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+@media (min-width: 850px) {
+  .container {
+    margin: 10% auto;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    min-width: 300px;
+  }
+}
